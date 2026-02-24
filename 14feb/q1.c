@@ -19,7 +19,7 @@ int main() {
         head = temp;
     }
 
-    // Print the linked list
+    
     temp = head;
     while (temp != NULL) {
         printf("%d -> ", temp->data);
@@ -27,7 +27,7 @@ int main() {
     }
     printf("NULL\n");
 
-    // Free the allocated memory
+    
     temp = head;
     struct Node* next;
     while (temp != NULL) {
