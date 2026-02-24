@@ -33,14 +33,13 @@ int main() {
             scanf("%d", &b[i][j]);
 
 
-    // Add matrices
+    // Add 
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c1; j++) {
             result[i][j] = a[i][j] + b[i][j];
         }
     }
 
-    // Display result
     printf("Resultant Matrix:\n");
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c1; j++) {
